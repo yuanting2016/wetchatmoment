@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="loading">加载中</string>
+    <string name="no_more_data">没有更多的数据</string>
+    <string name="common_str_reload">重新加载</string>
+    <string name="loading_fail">加载失败，请稍后重试</string>
+    <string name="txt_no_network">当前没有网络</string>
+</resources>
