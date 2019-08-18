@@ -5,7 +5,8 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
+
+import com.facebook.drawee.view.SimpleDraweeView;
 
 import java.util.List;
 
@@ -175,8 +176,8 @@ public class WetChatFriendsCircleFragmentLayout extends ViewGroup {
         }
 
         for (int i = 0; i < imageUrls.size(); i++) {
-            ImageView imageView = new ImageView(getContext());
-            //todo imageView.setImageURI(imageUrls.get(i));
+            SimpleDraweeView imageView = new SimpleDraweeView(getContext());
+            imageView.setImageURI(imageUrls.get(i));
             addView(imageView);
 
         }
